@@ -3194,7 +3194,8 @@ kbd {
   font-size: 0.9375em;
   padding: 0.125em 0.25em 0em;
   -webkit-border-radius: 3px;
-  border-radius: 3px; }
+  border-radius: 3px;
+  -webkit-transition: all 0.5s ease-in; }
 
 /* Labels */
 .label {
@@ -3299,6 +3300,7 @@ kbd {
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
   .panel.callout {
+    color: #fafafa;
     border-style: solid;
     border-width: 1px;
     border-color: #57a7ed;
@@ -3308,7 +3310,7 @@ kbd {
     -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
     .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p {
-      color: #333333; }
+      color: #fafafa; }
     .panel.callout > :first-child {
       margin-top: 0; }
     .panel.callout > :last-child {

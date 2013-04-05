@@ -1,0 +1,59 @@
+/* 
+    Document   : nvh.css
+    Created on : 5-apr-2013, 10:13:13
+    Author     : nicolasvanhoorde
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.blue {
+    background-color: #1c8aea !important;
+}
+
+.blue:hover .moreinfo {
+    display:block !important;
+}
+
+.moreinfo {
+    display: none !important;
+}
+
+#logo {
+    background: url('../img/logo.png');
+    background-repeat: no-repeat;
+    height: 75px;
+    width: 500px;
+}
+
+#logo:hover {
+    direction: rtl;
+}
+
+.zoom {
+    
+}
+
+.zoom:hover {
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+    -webkit-transition: all 0.3s ease;
+    -moz-transition:    all 0.3s ease;
+    -o-transition:      all 0.3s ease;
+    -ms-transition:     all 0.3s ease;
+    transition:         all 0.3s ease;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+}
+
+kdb {
+    -webkit-transition: all 0.3s ease;
+}
+
+.zoom:hover kbd {
+    background-color: yellow;
+}
+
